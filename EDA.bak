@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Marketing Campaign - Dataset.xlsx
+Query=`02_Cleaned_Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Age" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Education_Level" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Marital_Status" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Income_Segment" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Kidhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Teenhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Total_Dependents" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Dt_Customer" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Date" />
+            <Field name="Recency" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntWines" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFruits" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntMeatProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFishProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntSweetProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntGoldProds" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumDealsPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumCatalogPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumStorePurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebVisitsMonth" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp3" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp4" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp5" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp1" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp2" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Complain" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[MntWines] + [MntFruits] + [MntMeatProducts] &#xA;+ [MntFishProducts] + [MntSweetProducts] &#xA;+ [MntGoldProds]" field="Total_Spend" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total_Spend = [MntWines] + [MntFruits] + [MntMeatProducts] 
++ [MntFishProducts] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Age" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Education_Level" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Int16" />
+            <Field name="Marital_Status" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Income_Segment" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Kidhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Teenhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Total_Dependents" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Dt_Customer" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Date" />
+            <Field name="Recency" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntWines" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFruits" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntMeatProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFishProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntSweetProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntGoldProds" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumDealsPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumCatalogPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumStorePurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebVisitsMonth" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp3" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp4" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp5" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp1" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp2" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Complain" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Total_Spend" source="Formula: [MntWines] + [MntFruits] + [MntMeatProducts] &#xA;+ [MntFishProducts] + [MntSweetProducts] &#xA;+ [MntGoldProds]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aayus\AppData\Local\Temp\Alteryx\Engine_2708_7abd68773902487bb2b1cf6cf8dab01a_\Engine_2708_802b1b0f62fa433c9407faa4842d5a66~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Education_Level" action="GroupBy" rename="Education_Level" />
+            <SummarizeField field="Total_Spend" action="Sum" rename="Sum_Spend_By_Edu" />
+            <SummarizeField field="ID" action="Count" rename="Count_ID" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Education_Level" source="Summarize: GroupBy - Education_Level" type="Int16" />
+            <Field name="Sum_Spend_By_Edu" source="Summarize: Sum - Total_Spend" type="Double" />
+            <Field name="Count_ID" source="Summarize: Count - ID" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Spend_By_Edu] / [Count_ID]&#xA;" field="Avg_Spend_by_Edu" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Avg_Spend_by_Edu = [Sum_Spend_By_Edu] / [Count_ID]
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Education_Level" source="Summarize: GroupBy - Education_Level" type="Int16" />
+            <Field name="Sum_Spend_By_Edu" source="Summarize: Sum - Total_Spend" type="Double" />
+            <Field name="Count_ID" source="Summarize: Count - ID" type="Int64" />
+            <Field name="Education" size="2147483647" source="Formula: IF [Education_Level] = 5 THEN &quot;Doctorate&quot;&#xA;ELSEIF [Education_Level] = 4 THEN &quot;Masters&quot;&#xA;ELSEIF [Education_Level] = 3 THEN &quot;Bachelors&quot;&#xA;ELSEIF [Education_Level] = 2 THEN &quot;Associates&quot;&#xA;ELSEIF [Education_Level] = 1 THEN &quot;High School&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" type="V_String" />
+            <Field name="Avg_Spend_by_Edu" source="Formula: [Sum_Spend_By_Edu] / [Count_ID]&#xA;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="366" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="ID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="ID" selected="False" />
+            <Field field="Age" selected="False" />
+            <Field field="Education_Level" selected="False" />
+            <Field field="Marital_Status" selected="False" />
+            <Field field="Income" selected="False" />
+            <Field field="Income_Segment" selected="False" />
+            <Field field="Kidhome" selected="False" />
+            <Field field="Teenhome" selected="False" />
+            <Field field="Total_Dependents" selected="False" />
+            <Field field="Dt_Customer" selected="False" />
+            <Field field="Recency" selected="False" />
+            <Field field="MntWines" selected="False" />
+            <Field field="MntFruits" selected="False" />
+            <Field field="MntMeatProducts" selected="False" />
+            <Field field="MntFishProducts" selected="False" />
+            <Field field="MntSweetProducts" selected="False" />
+            <Field field="MntGoldProds" selected="False" />
+            <Field field="NumDealsPurchases" selected="False" />
+            <Field field="NumWebPurchases" selected="False" />
+            <Field field="NumCatalogPurchases" selected="False" />
+            <Field field="NumStorePurchases" selected="False" />
+            <Field field="NumWebVisitsMonth" selected="False" />
+            <Field field="AcceptedCmp3" selected="True" />
+            <Field field="AcceptedCmp4" selected="True" />
+            <Field field="AcceptedCmp5" selected="True" />
+            <Field field="AcceptedCmp1" selected="True" />
+            <Field field="AcceptedCmp2" selected="True" />
+            <Field field="Complain" selected="False" />
+            <Field field="Country" selected="False" />
+            <Field field="Total_Spend" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aayus\AppData\Local\Temp\Alteryx\Engine_2708_7abd68773902487bb2b1cf6cf8dab01a_\Engine_2708_36f8ead5aec54ea0a6d6095a47de4cf9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Value" action="Sum" rename="Responses" />
+            <SummarizeField field="ID" action="Count" rename="Invitations" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="12" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Responses" source="Summarize: Sum - Value" type="Double" />
+            <Field name="Invitations" source="Summarize: Count - ID" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Responses] / [Invitations]" field="Conversion_Rate" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Conversion_Rate = [Responses] / [Invitations]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="12" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Responses" source="Summarize: Sum - Value" type="Double" />
+            <Field name="Invitations" source="Summarize: Count - ID" type="Int64" />
+            <Field name="Conversion_Rate" source="Formula: [Responses] / [Invitations]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff(DateTimeToday(), [Dt_Customer], &quot;days&quot;)&#xA;&#xA;" field="Days_Since_Last_Customer" size="8" type="Int64" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Days_Since_Last_Customer = DateTimeDiff(DateTimeToday(), [Dt_Customer], "days")
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Age" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Education_Level" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Int16" />
+            <Field name="Marital_Status" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Income_Segment" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Kidhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Teenhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Total_Dependents" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Dt_Customer" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Date" />
+            <Field name="Recency" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntWines" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFruits" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntMeatProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFishProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntSweetProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntGoldProds" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumDealsPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumCatalogPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumStorePurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebVisitsMonth" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp3" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp4" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp5" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp1" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp2" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Complain" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Total_Spend" source="Formula: [MntWines] + [MntFruits] + [MntMeatProducts] &#xA;+ [MntFishProducts] + [MntSweetProducts] &#xA;+ [MntGoldProds]" type="Double" />
+            <Field name="Days_Since_Last_Customer" source="Formula: DateTimeDiff(DateTimeToday(), [Dt_Customer], &quot;days&quot;)&#xA;&#xA;" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Income_Segment" action="GroupBy" rename="Income_Segment" />
+            <SummarizeField field="Total_Spend" action="Avg" rename="Avg_Spend_Segment" />
+            <SummarizeField field="Days_Since_Last_Customer" action="Avg" rename="Avg_Recency_Segment" />
+            <SummarizeField field="ID" action="Count" rename="Count_ID" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Income_Segment" size="255" source="Summarize: GroupBy - Income_Segment" type="V_String" />
+            <Field name="Avg_Spend_Segment" source="Summarize: Avg - Total_Spend" type="Double" />
+            <Field name="Avg_Recency_Segment" source="Summarize: Avg - Days_Since_Last_Customer" type="Double" />
+            <Field name="Count_ID" source="Summarize: Count - ID" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aayus\AppData\Local\Temp\Alteryx\Engine_2708_7abd68773902487bb2b1cf6cf8dab01a_\Engine_2708_d12b7772cf894a4392a03696859a5a3d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="378" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Country" action="GroupBy" rename="Country" />
+            <SummarizeField field="Total_Spend" action="Sum" rename="Spend_By_Country" />
+            <SummarizeField field="ID" action="Count" rename="Count_By_Country" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="255" source="Summarize: GroupBy - Country" type="V_String" />
+            <Field name="Spend_By_Country" source="Summarize: Sum - Total_Spend" type="Double" />
+            <Field name="Count_By_Country" source="Summarize: Count - ID" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Spend_By_Country] / [Count_By_Country]" field="Avg_Spend_By_Country " size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Avg_Spend_By_Country  = [Spend_By_Country] / [Count_By_Country]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="255" source="Summarize: GroupBy - Country" type="V_String" />
+            <Field name="Spend_By_Country" source="Summarize: Sum - Total_Spend" type="Double" />
+            <Field name="Count_By_Country" source="Summarize: Count - ID" type="Int64" />
+            <Field name="Avg_Spend_By_Country " source="Formula: [Spend_By_Country] / [Count_By_Country]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aayus\AppData\Local\Temp\Alteryx\Engine_2708_7abd68773902487bb2b1cf6cf8dab01a_\Engine_2708_40589c3406e94d11afc5415efdd9e388~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="18" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Aggregate Spend by Education_Level</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="798" y="198" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Compute Campaign Conversion Rates</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="786" y="342" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ Recency vs. Spend Analysis]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="498" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Geographic Aggregations</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Edu_Spend.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Edu_Spend.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Conversion.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Conversion.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Recency_Spend.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Recency_Spend.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Geography_Spend.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Geography_Spend.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Education_Level] = 5 THEN &quot;Doctorate&quot;&#xA;ELSEIF [Education_Level] = 4 THEN &quot;Masters&quot;&#xA;ELSEIF [Education_Level] = 3 THEN &quot;Bachelors&quot;&#xA;ELSEIF [Education_Level] = 2 THEN &quot;Associates&quot;&#xA;ELSEIF [Education_Level] = 1 THEN &quot;High School&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" field="Education" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Education = IF [Education_Level] = 5 THEN "Doctorate"
+ELSEIF [Education_Level] =...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Education_Level" source="Summarize: GroupBy - Education_Level" type="Int16" />
+            <Field name="Sum_Spend_By_Edu" source="Summarize: Sum - Total_Spend" type="Double" />
+            <Field name="Count_ID" source="Summarize: Count - ID" type="Int64" />
+            <Field name="Education" size="2147483647" source="Formula: IF [Education_Level] = 5 THEN &quot;Doctorate&quot;&#xA;ELSEIF [Education_Level] = 4 THEN &quot;Masters&quot;&#xA;ELSEIF [Education_Level] = 3 THEN &quot;Bachelors&quot;&#xA;ELSEIF [Education_Level] = 2 THEN &quot;Associates&quot;&#xA;ELSEIF [Education_Level] = 1 THEN &quot;High School&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Education_Level" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Age" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Education_Level" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Int16" />
+            <Field name="Marital_Status" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Income_Segment" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+            <Field name="Kidhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Teenhome" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Total_Dependents" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Dt_Customer" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Date" />
+            <Field name="Recency" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntWines" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFruits" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntMeatProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntFishProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntSweetProducts" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="MntGoldProds" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumDealsPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumCatalogPurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumStorePurchases" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="NumWebVisitsMonth" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp3" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp4" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp5" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp1" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="AcceptedCmp2" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Complain" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="Double" />
+            <Field name="Country" size="255" source="File: C:\Users\aayus\OneDrive\Desktop\Data_Analysis\Project - Marketing Campaign Analysis\Marketing Campaign - Dataset.xlsx|||`02_Cleaned_Data$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <SortedGrouping value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>EDA</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cd6ca901-ed3f-4e90-9cc7-ff80304aef52" />
+      <Telemetry>
+        <PreviousWorkflowId value="85cd31c8-d06e-4ea0-80e6-d1d7498d4133" />
+        <OriginWorkflowId value="85cd31c8-d06e-4ea0-80e6-d1d7498d4133" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (18)</Name>
+          <ToolId value="18" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="False" />
+        <Tool ToolId="8" Selected="False" />
+        <Tool ToolId="13" Selected="False" />
+        <Tool ToolId="16" Selected="False" />
+        <Tool ToolId="24" Selected="True" />
+        <Tool ToolId="25" Selected="True" />
+        <Tool ToolId="26" Selected="True" />
+        <Tool ToolId="27" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
